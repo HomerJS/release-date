@@ -1,0 +1,9 @@
+<?php
+use Tarknaiev\ReleaseDate\Block\Product\ReleaseDate\CounterReleaseDate;
+/** @var \Magento\Framework\Escaper $escaper */
+/** @var CounterReleaseDate $block */
+$releaseDate = $block->getReleaseDateData();
+?>
+<div data-mage-init='{"counter": {"releaseDate": "<?= $releaseDate ?>"}}'>
+    <p id="counter"></p>
+</div>

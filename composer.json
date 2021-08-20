@@ -1,0 +1,15 @@
+{
+    "name": "tarknaiev/release-date",
+    "license": "proprietary",
+    "description": "Add release date functionality",
+    "type": "magento2-module",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Tarknaiev\\ReleaseDate\\": ""
+        }
+    }
+}
+

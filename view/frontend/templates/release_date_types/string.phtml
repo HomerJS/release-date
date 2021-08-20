@@ -1,0 +1,9 @@
+<?php
+use Tarknaiev\ReleaseDate\Block\Product\ReleaseDate\StringReleaseDate;
+/** @var \Magento\Framework\Escaper $escaper */
+/** @var StringReleaseDate $block */
+$date = $block->getReleaseDateData();
+?>
+<div class="string">
+    <?= $escaper->escapeHtml(__('This product will be available: %1', $date)) ?>
+</div>
